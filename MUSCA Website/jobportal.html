@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="assets/clogo48.png" type="image/x-icon">
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Job Vacancy | MUSCA</title>
+    <link rel="stylesheet" href="jobportal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,400;0,600;0,700;1,300;1,500&family=Oswald:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+<script defer src="https://friconix.com/cdn/friconix.js"> </script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".card").on("click", function(){
+                $(".detail").addClass("active");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="sidebar">
+        <h1 class="logo">JobVacancy</h1>
+        <div class="menus">
+           <a href="" ><i class="fi-xnsuxl-home-solid"></i> Home</a>
+           <a href="" ><i class="fi-xnsuhl-search"></i> Find Jobs</a>
+           <a href="" ><i class="fi-xnsuxl-bookmark-solid"></i> Performance</a>
+           <a href="" ><i class="fi-xnsuxl-home-solid"></i> Bookmarks</a>
+           <a href="" ><i class="fi-xwsuxl-envelope-solid"></i> Message</a>
+           <a href="" ><i class="fi-xnsuxl-settings-solid"></i> Settings</a>
+        </div>
+        <div class="profile">
+            <img class="profile-img" src="images/userpfp.png">
+            <div class="profile-name">
+                <h4>Frances Zanquen</h4>
+                <p>Co-Ceo</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-header">
+            <i class="fi-xnsuxl-three-bars-solid" name="menu-bar"></i>
+            <div class="search">
+                <input type="text" placeholder="Find your Musca Babaylan calling here...">
+                <button class="btn-search"><i class="fi-xnsuxl-magnifying-glass-solid"></i></button>
+            </div>
+        </div>
+        <div class="filter-wrapper">
+            <p>Reccomendation</p>
+            <div class="filter">
+                <button class="btn-filter">Fashion Stylist</button>
+                <button class="btn-filter">Fashion Photographer</button>
+                <button class="btn-filter">Customer Service Representative</button>
+                <button class="btn-filter">Marketing Coordinator</button>
+                <button class="btn-filter">Handcrafted Artist</button>
+            </div>
+        </div>
+        <div class="sort">
+            <p>Sort</p>
+            <div class="sort-list">
+                <select>
+                    <option value="0">All</option>
+                    <option value="1">Newest Post</option>
+                    <option value="2">Olddest Post</option>
+                    <option value="3">Most Relevant</option>
+                    <option value="3">Highest Paid</option>
+                </select>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="card">
+                <div class="card-left blue-bg">
+                    <img src="images/Job-Interview.png">
+                </div>
+                <div class="card-center">
+                    <h3>Customer Service Representative</h3>
+                    <p class="card-detail">Member Service Representative, Customer Support Proffesional</p>
+                    <p class="card-loc"><i class="fi-xnsuxl-map-marker-solid"></i> Space No. 1040 & 1041, G/F  Ayala Malls Capitol Central Gatuslao St. 
+                    6100 Bacolod City</p>
+                    <div class="card-sub">
+                        <p><i class="fi-xnluxl-calendar"></i> 1 mins ago</p>
+                        <p><i class="fi-cnluhl-clock"></i> Full-time</p>
+                        <p><i class="fi-xnsuxl-team-solid"></i> 200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Customer Service</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>₱250k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left yellow-bg">
+                    <img src="images/Old-Camera-color-800px.png">
+                </div>
+                <div class="card-center">
+                    <h3>Photographer</h3>
+                    <p class="card-detail">Fashion Potographer, Proffesional Photographer</p>
+                    <p class="card-loc"><i class="fi-xnsuxl-map-marker-solid"></i> Space No. 1040 & 1041, G/F  Ayala Malls Capitol Central Gatuslao St. 
+                    6100 Bacolod City</p>
+                    <div class="card-sub">
+                        <p><i class="fi-xnluxl-calendar"></i> 1 mins ago</p>
+                        <p><i class="fi-cnluhl-clock"></i> Full-time</p>
+                        <p><i class="fi-xnsuxl-team-solid"></i> 200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Photographer</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>₱260k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left red-bg">
+                    <img src="images/stylist.png">
+                </div>
+                <div class="card-center">
+                    <h3>Fashion Stylist</h3>
+                    <p class="card-detail">Fashion Stylist, Proffesional Stylist</p>
+                    <p class="card-loc"><i class="fi-xnsuxl-map-marker-solid"></i> Space No. 1040 & 1041, G/F  Ayala Malls Capitol Central Gatuslao St. 
+                    6100 Bacolod City</p>
+                    <div class="card-sub">
+                        <p><i class="fi-xnluxl-calendar"></i> 1 mins ago</p>
+                        <p><i class="fi-cnluhl-clock"></i> Full-time</p>
+                        <p><i class="fi-xnsuxl-team-solid"></i> 200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Fashion Stylist</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>₱350k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left pink-bg">
+                    <img src="images/handcraft.png">
+                </div>
+                <div class="card-center">
+                    <h3>Handcrafted Artist</h3>
+                    <p class="card-detail">Handcrafted Artis, Proffesional Handcrafts Artist</p>
+                    <p class="card-loc"><i class="fi-xnsuxl-map-marker-solid"></i> Space No. 1040 & 1041, G/F  Ayala Malls Capitol Central Gatuslao St. 
+                    6100 Bacolod City</p>
+                    <div class="card-sub">
+                        <p><i class="fi-xnluxl-calendar"></i> 1 mins ago</p>
+                        <p><i class="fi-cnluhl-clock"></i> Full-time</p>
+                        <p><i class="fi-xnsuxl-team-solid"></i> 200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Handcraft Artist</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>₱380k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-left green-bg">
+                    <img src="images/Customer-Survey-color-800px.png">
+                </div>
+                <div class="card-center">
+                    <h3>Marketing Coordinator</h3>
+                    <p class="card-detail">Market Research,Sales Data Analyst</p>
+                    <p class="card-loc"><i class="fi-xnsuxl-map-marker-solid"></i> Space No. 1040 & 1041, G/F  Ayala Malls Capitol Central Gatuslao St. 
+                    6100 Bacolod City</p>
+                    <div class="card-sub">
+                        <p><i class="fi-xnluxl-calendar"></i> 1 mins ago</p>
+                        <p><i class="fi-cnluhl-clock"></i> Full-time</p>
+                        <p><i class="fi-xnsuxl-team-solid"></i> 200 Applicants</p>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-tag">
+                        <h5>Division</h5>
+                        <a href="#">Marketing Coordinator</a>
+                    </div>
+                    <div class="card-salary">
+                        <p><b>₱400k</b><span>/year</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="detail">
+        <i class="fi-xwluxl-times-wide" name="close-outline"></i>
+           <div class="detail-header">
+           <img src="images/Job-Interview.png">
+           <h2>Customer Service Representative</h2>
+           <p>Member Service Representative, Customer Support Proffesional</p>
+       </div>
+       <hr class="divider">
+       <div class="detail-desc">
+           <div class="about">
+               <h4>Job Brief </h4>
+               <p>A keen eye for fashion trends and the ability
+                    to create stylish looks for clients.</p>
+                    <a href="#">Read More...</a>
+           </div>
+           <hr class="divider">
+           <div class="qualification">
+               <h4>Qualification</h4>
+               <ul>
+                   <li>Excellent verbal and written communication skills</li>
+                   <li>Patience and ability to handle customer inquiries and issues</li>
+                   <li>Strong problem-solving and conflict resolution skills</li>
+               </ul>
+           </div>
+       </div>
+       <hr class="divider">
+       <div class="detail-btn">
+           <button class="btn-apply">Apply Now</button>
+           <button class="btn-save">Save Job</button>
+       </div>
+   </div>
+
+
+
+
+
+    </body>
+</html>
+</body>
+</html>
